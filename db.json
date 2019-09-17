@@ -21,5 +21,22 @@
       "id": 3
     }
   ],
-  "design": []
+  "design": [
+    {
+      "styleName": "Men ankara",
+      "description": "nice Men Ankara ",
+      "price": "20000",
+      "imageUrl": "https://i.pinimg.com/564x/f0/43/11/f043116fd24491eea3e47f130e459c82.jpg",
+      "userEmail": "test@gmail.com",
+      "id": 1
+    },
+    {
+      "styleName": "",
+      "description": "",
+      "price": "",
+      "imageUrl": "",
+      "userEmail": "test@gmail.com",
+      "id": 2
+    }
+  ]
 }
