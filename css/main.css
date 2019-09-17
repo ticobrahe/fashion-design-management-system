@@ -4,9 +4,9 @@
 }
 
 .form-margin {
-  margin-bottom: 100px;
+  margin-bottom: 140px;
 }
 
-.logout-display {
+#logout-display {
   display: none;
 }
