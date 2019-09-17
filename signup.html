@@ -50,19 +50,25 @@
     </nav>
     <main class="main-content">
       <form class="text-center p-5">
-        <p class="h4 mb-4"></p>
+        <h4 class="h4 mb-4 regMessage"></h4>
 
         <input
           type="text"
-          id="firstName"
+          id="firstname"
           class="form-control mb-4"
           placeholder="firstname"
         />
         <input
           type="text"
-          id="lastName"
+          id="lastname"
           class="form-control mb-4"
           placeholder="Lastname"
+        />
+        <input
+          type="password"
+          id="password"
+          class="form-control mb-4"
+          placeholder="password"
         />
 
         <input
@@ -72,11 +78,14 @@
           placeholder="Email address"
         />
 
-        <button class="btn btn-info btn-block" type="submit">Sign up</button>
+        <button class="btn btn-info btn-block" id="signup" type="submit">
+          Sign up
+        </button>
       </form>
     </main>
     <script src="./js/jquery.js"></script>
     <script src="./js/proper.js"></script>
     <script src="./js/bootstrap.js"></script>
+    <script src="./js/signup.js"></script>
   </body>
 </html>
