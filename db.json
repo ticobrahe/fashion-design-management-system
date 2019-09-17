@@ -1,4 +1,25 @@
 {
-  "users": [],
+  "users": [
+    {
+      "firstname": "Samuel",
+      "lastname": "Olabiyi",
+      "email": "olabiyi.sam@gmail.com",
+      "id": 1
+    },
+    {
+      "firstname": "tobi",
+      "lastname": "femi",
+      "password": "1222",
+      "email": "test@gmail.com",
+      "id": 2
+    },
+    {
+      "firstname": "Tega",
+      "lastname": "decagon",
+      "password": "tega-dec",
+      "email": "tega@decagon.com",
+      "id": 3
+    }
+  ],
   "design": []
 }
