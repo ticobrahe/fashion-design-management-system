@@ -5,6 +5,9 @@ $(document).ready(function() {
     const password = $("#password").val();
     if (!email || !password) {
       $(".loginMessage").html("Kindly fill in all fields");
+      setTimeout(() => {
+        $(".loginMessage").html("");
+      }, 2000);
       return;
     }
     $.ajax({
@@ -17,8 +20,8 @@ $(document).ready(function() {
       success: function(response) {
         if (response.length) {
           $(".loginMessage").html("Login Success");
-          localStorage.setItem("email", email),
-            window.location.assign("index.html");
+          localStorage.setItem("email", email);
+          window.location.assign("index.html");
         } else {
           $(".loginMessage").html("email or password is incorrect");
         }

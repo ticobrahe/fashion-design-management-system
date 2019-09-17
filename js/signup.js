@@ -7,7 +7,10 @@ $(document).ready(function() {
     const email = $("#email").val();
     console.log(password);
     if (!firstname || !lastname || !email) {
-      $(".message").html("Kindly fill in all fields");
+      $(".regMessage").html("Kindly fill in all fields");
+      setTimeout(() => {
+        $(".regMessage").html("");
+      }, 2000);
       return;
     }
 
@@ -19,7 +22,7 @@ $(document).ready(function() {
       },
       success: function(response) {
         if (response.length) {
-          $(".message").html("User already exist");
+          $(".regMessage").html("User already exist");
         } else {
           $.ajax({
             method: "POST",
@@ -31,7 +34,7 @@ $(document).ready(function() {
               email
             },
             success: function() {
-              $(".message").html("User created Succesfully");
+              $(".regMessage").html("User created Succesfully");
             }
           });
         }
