@@ -15,7 +15,9 @@ $(document).ready(function() {
       !brandName ||
       !phone
     ) {
-      $(".regMessage").html("Kindly fill in all fields");
+      $(".regMessage").html(
+        "<p class='text-danger'>Kindly fill in all fields</p>"
+      );
       setTimeout(() => {
         $(".regMessage").html("");
       }, 2000);
@@ -30,7 +32,9 @@ $(document).ready(function() {
       },
       success: function(response) {
         if (response.length) {
-          $(".regMessage").html("Stylist already exist");
+          $(".regMessage").html(
+            "<p class='text-danger'>Stylist already exist</p>"
+          );
         } else {
           $.ajax({
             method: "POST",
@@ -44,7 +48,9 @@ $(document).ready(function() {
               phoneNumber: phone
             },
             success: function() {
-              $(".regMessage").html("Stylist created Succesfully");
+              $(".regMessage").html(
+                "<p class='text-success'>Stylist created Succesfully</p>"
+              );
             }
           });
         }

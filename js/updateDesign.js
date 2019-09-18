@@ -23,7 +23,9 @@ $(document).ready(function() {
             imageUrl
           },
           success: function(response) {
-            $(".update-message").html("Design Updated succesfully");
+            $(".update-message").html(
+              "<p class='text-success'>Design Updated succesfully</p>"
+            );
             window.location.assign(`design.html?id=${id}`);
           }
         });
