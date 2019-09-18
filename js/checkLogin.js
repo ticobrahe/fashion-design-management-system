@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const user = localStorage.getItem("email");
-  if (!user) {
+  const stylist = localStorage.getItem("email");
+  if (!stylist) {
     $("#logout").css("display", "none");
   } else {
     $("#login").css("display", "none");

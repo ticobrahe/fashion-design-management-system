@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
     $.ajax({
       method: "GET",
-      url: `http://localhost:3000/users?email=${email}&password=${password}`,
+      url: `http://localhost:3000/stylists?email=${email}&password=${password}`,
       data: {
         email,
         password
@@ -24,6 +24,9 @@ $(document).ready(function() {
           window.location.assign("index.html");
         } else {
           $(".loginMessage").html("email or password is incorrect");
+          setTimeout(() => {
+            $(".loginMessage").html("");
+          }, 2000);
         }
       }
     });
