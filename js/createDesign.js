@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const user = localStorage.getItem("email");
-  if (!user) {
+  const stylist = localStorage.getItem("email");
+  if (!stylist) {
     window.location.assign("login.html");
   }
   $("#create").click(function(e) {
@@ -18,16 +18,16 @@ $(document).ready(function() {
     }
     $.ajax({
       method: "POST",
-      url: "http://localhost:3000/design",
+      url: "http://localhost:3000/designs",
       data: {
         styleName,
         description,
         price,
         imageUrl,
-        userEmail: user
+        stylistEmail: stylist
       },
       success: function() {
-        $(".design-message").html("Style created Succesfully");
+        $(".design-message").html("Design created succesfully");
       }
     });
   });

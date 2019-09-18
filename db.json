@@ -1,27 +1,16 @@
 {
-  "users": [
+  "stylists": [
     {
       "firstname": "Samuel",
       "lastname": "Olabiyi",
+      "password": "1234",
       "email": "olabiyi.sam@gmail.com",
+      "brandName": "Ticobrahe",
+      "phoneNumber": "+2347035455402",
       "id": 1
-    },
-    {
-      "firstname": "tobi",
-      "lastname": "femi",
-      "password": "1222",
-      "email": "test@gmail.com",
-      "id": 2
-    },
-    {
-      "firstname": "Tega",
-      "lastname": "decagon",
-      "password": "tega-dec",
-      "email": "tega@decagon.com",
-      "id": 3
     }
   ],
-  "design": [
+  "designs": [
     {
       "styleName": "Men ankara",
       "description": "nice Men Ankara ",
@@ -45,6 +34,14 @@
       "imageUrl": "https://i.pinimg.com/564x/61/dd/3f/61dd3f955a4ca64e1862e03991f79dce.jpg",
       "userEmail": "test@gmail.com",
       "id": 3
+    },
+    {
+      "styleName": "LongSleeve T-shirt",
+      "description": "imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt",
+      "price": "19804.25",
+      "imageUrl": "https://i.pinimg.com/564x/c1/1a/9b/c11a9b0a16794e1fe9c2eb1c5907a4a7.jpg",
+      "stylistEmail": "olabiyi.sam@gmail.com",
+      "id": 4
     }
   ]
 }

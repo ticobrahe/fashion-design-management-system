@@ -5,8 +5,16 @@ $(document).ready(function() {
     const lastname = $("#lastname").val();
     const password = $("#password").val();
     const email = $("#email").val();
-    console.log(password);
-    if (!firstname || !lastname || !email) {
+    const brandName = $("#brandName").val();
+    const phone = $("#phone").val();
+    if (
+      !firstname ||
+      !lastname ||
+      !email ||
+      !password ||
+      !brandName ||
+      !phone
+    ) {
       $(".regMessage").html("Kindly fill in all fields");
       setTimeout(() => {
         $(".regMessage").html("");
@@ -16,25 +24,27 @@ $(document).ready(function() {
 
     $.ajax({
       method: "GET",
-      url: `http://localhost:3000/users?email=${email}`,
+      url: `http://localhost:3000/stylists?email=${email}`,
       data: {
         email
       },
       success: function(response) {
         if (response.length) {
-          $(".regMessage").html("User already exist");
+          $(".regMessage").html("Stylist already exist");
         } else {
           $.ajax({
             method: "POST",
-            url: "http://localhost:3000/users",
+            url: "http://localhost:3000/stylists",
             data: {
               firstname,
               lastname,
               password,
-              email
+              email,
+              brandName,
+              phoneNumber: phone
             },
             success: function() {
-              $(".regMessage").html("User created Succesfully");
+              $(".regMessage").html("Stylist created Succesfully");
             }
           });
         }

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $.getJSON("http://localhost:3000/design", function(response) {
+  $.getJSON("http://localhost:3000/designs", function(response) {
     $.each(response, function(key, design) {
       const description = design.description.slice(0, 50);
       const card = `
@@ -12,8 +12,8 @@ $(document).ready(function() {
               ${description}
               </p>
               <div class="price-position">
-              <a href="/design.html?id=${design.id}" class="btn btn-primary">View</a> 
-              <p>₦${design.price}</p>
+              <a href="/design.html/${design.id}" class="btn btn-primary">View</a> 
+              <p>₦ ${design.price}</p>
               </div>
             </div>
           </div>
