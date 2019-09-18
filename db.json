@@ -12,19 +12,17 @@
   ],
   "designs": [
     {
-      "styleName": "Men ankara",
+      "styleName": "Men Ankara",
       "description": "nice Men Ankara ",
       "price": "20000",
       "imageUrl": "https://i.pinimg.com/564x/f0/43/11/f043116fd24491eea3e47f130e459c82.jpg",
-      "userEmail": "test@gmail.com",
       "id": 1
     },
     {
-      "styleName": "girt",
+      "styleName": "Kombe",
       "description": "jsjsLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musjsj",
-      "price": "30",
+      "price": "30226",
       "imageUrl": "https://i.pinimg.com/564x/12/91/8c/12918c788f8a7d53cf987fb0164ea558.jpg",
-      "userEmail": "test@gmail.com",
       "id": 2
     },
     {
