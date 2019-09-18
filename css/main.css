@@ -13,6 +13,7 @@
 
 #home-footer {
   margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .card-position {
@@ -29,3 +30,21 @@
 .price-position p {
   float: right;
 }
+
+.single-design-pane {
+  width: 20rem;
+  margin: 30px auto;
+}
+
+.design-image {
+  width: 100%;
+  height: 250px;
+}
+
+.single-design-info {
+  width: 100%;
+}
+
+/* .single-design-price {
+  color: #6eddff;
+} */
