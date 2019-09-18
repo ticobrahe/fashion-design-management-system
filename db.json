@@ -31,12 +31,20 @@
       "id": 1
     },
     {
-      "styleName": "",
-      "description": "",
-      "price": "",
-      "imageUrl": "",
+      "styleName": "girt",
+      "description": "jsjsLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musjsj",
+      "price": "30",
+      "imageUrl": "https://i.pinimg.com/564x/12/91/8c/12918c788f8a7d53cf987fb0164ea558.jpg",
       "userEmail": "test@gmail.com",
       "id": 2
+    },
+    {
+      "styleName": "love",
+      "description": "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,",
+      "price": "50",
+      "imageUrl": "https://i.pinimg.com/564x/61/dd/3f/61dd3f955a4ca64e1862e03991f79dce.jpg",
+      "userEmail": "test@gmail.com",
+      "id": 3
     }
   ]
 }

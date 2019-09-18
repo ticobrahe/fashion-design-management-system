@@ -10,3 +10,22 @@
 #logout-display {
   display: none;
 }
+
+#home-footer {
+  margin-top: 100px;
+}
+
+.card-position {
+  width: 18rem;
+  margin: 20px 0;
+  height: 430px;
+}
+
+.card-position img {
+  width: 100%;
+  height: 250px;
+}
+
+.price-position p {
+  float: right;
+}
