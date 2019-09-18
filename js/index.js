@@ -12,7 +12,7 @@ $(document).ready(function() {
               ${description}
               </p>
               <div class="price-position">
-              <a href="/design.html/${design.id}" class="btn btn-primary">View</a> 
+              <a href="/design.html?id=${design.id}" class="btn btn-primary">View</a> 
               <p>₦ ${design.price}</p>
               </div>
             </div>
