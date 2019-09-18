@@ -19,10 +19,24 @@ $(document).ready(function() {
       if (stylist) {
         const btn = `
         <a href="/update-design.html?id=${design.id}" class="btn btn-success m-">Modify</a>
-        <a href="?id=${design.id}" class="btn btn-danger m-1">Delete</a>
+        <button class="btn btn-danger m-1" id="del">Delete</button>
         `;
         $(".single-design-info").append(btn);
       }
+
+      $("#del").click(function(e) {
+        e.preventDefault();
+        $.ajax({
+          method: "DELETE",
+          url: `http://localhost:3000/designs/${id}`,
+          success: function() {
+            $(".designMessage").html(
+              "<p class='text-success'>Deleted Successful</p>"
+            );
+            window.location.assign("index.html");
+          }
+        });
+      });
     });
   });
 });

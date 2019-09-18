@@ -10,7 +10,9 @@ $(document).ready(function() {
     const price = $("#price").val();
     const imageUrl = $("#image").val();
     if (!styleName || !description || !price || !imageUrl) {
-      $(".design-message").html("Kindly fill in all fields");
+      $(".design-message").html(
+        "<p class='text-danger'>Kindly fill in all fields</p>"
+      );
       setTimeout(() => {
         $(".design-message").html("");
       }, 2000);
@@ -27,7 +29,9 @@ $(document).ready(function() {
         stylistEmail: stylist
       },
       success: function() {
-        $(".design-message").html("Design created succesfully");
+        $(".design-message").html(
+          "<p class='text-success'>Design created succesfully</p>"
+        );
       }
     });
   });

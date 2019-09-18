@@ -8,6 +8,15 @@
       "brandName": "Ticobrahe",
       "phoneNumber": "+2347035455402",
       "id": 1
+    },
+    {
+      "firstname": "Tega",
+      "lastname": "Dev",
+      "password": "1234",
+      "email": "tega@decagon.com",
+      "brandName": "Decagon",
+      "phoneNumber": "07035455402",
+      "id": 2
     }
   ],
   "designs": [
@@ -34,11 +43,10 @@
       "id": 3
     },
     {
-      "styleName": "LongSleeve T-shirt",
-      "description": "imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt",
-      "price": "19804.25",
-      "imageUrl": "https://i.pinimg.com/564x/c1/1a/9b/c11a9b0a16794e1fe9c2eb1c5907a4a7.jpg",
-      "stylistEmail": "olabiyi.sam@gmail.com",
+      "styleName": "Blue native",
+      "description": "Casual native wear with cotton material",
+      "price": "8492.43",
+      "imageUrl": "https://i.pinimg.com/236x/a7/64/37/a764379b651983a7c30c49ead5975354.jpg",
       "id": 4
     }
   ]
