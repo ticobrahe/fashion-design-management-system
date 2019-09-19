@@ -17,24 +17,43 @@
       "brandName": "Decagon",
       "phoneNumber": "07035455402",
       "id": 2
+    },
+    {
+      "firstname": "femi",
+      "lastname": "sam",
+      "password": "1234",
+      "email": "ticobrahe57@yahoo.com",
+      "brandName": "Jaga",
+      "phoneNumber": "+1 07185538740",
+      "id": 3
+    },
+    {
+      "firstname": "Sam",
+      "lastname": "Ojomo",
+      "password": "12345",
+      "email": "sam@gmail.com",
+      "brandName": "Dhopey",
+      "phoneNumber": "0803445555",
+      "id": 4
+    },
+    {
+      "firstname": "fem",
+      "lastname": "Olabiyi",
+      "password": "111",
+      "email": "olabiy.sam@gmail.com",
+      "brandName": "Ticobhe",
+      "phoneNumber": "+2347035455402",
+      "id": 5
     }
   ],
   "designs": [
     {
       "styleName": "Blue native",
       "description": "Casual native wear with cotton material",
-      "price": "31292.75",
+      "price": "35292.75",
       "imageUrl": "https://i.pinimg.com/236x/a7/64/37/a764379b651983a7c30c49ead5975354.jpg",
       "stylistEmail": "olabiyi.sam@gmail.com",
       "id": 1
-    },
-    {
-      "styleName": "Men Ankara",
-      "description": "Quality ankara outfit design ",
-      "price": "6467.05",
-      "imageUrl": "https://i.pinimg.com/564x/f0/43/11/f043116fd24491eea3e47f130e459c82.jpg",
-      "stylistEmail": "olabiyi.sam@gmail.com",
-      "id": 2
     },
     {
       "styleName": "Kombe",

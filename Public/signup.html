@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Update|Design</title>
+    <title>User Sign Up</title>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
       <div class="container">
-        <a class="navbar-brand" href="/index.html">Tico Fashion</a>
+        <a class="navbar-brand" href="/">Tico Fashion</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -27,21 +27,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item" id="home">
-              <a class="nav-link" href="/index.html"
+              <a class="nav-link" href="/"
                 >Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item" id="register">
-              <a class="nav-link" href="/signup.html">Register</a>
+              <a class="nav-link active" href="/signup.html">Register</a>
             </li>
             <li class="nav-item" id="login">
               <a class="nav-link" href="/login.html">Login</a>
             </li>
             <li class="nav-item" id="design">
-              <a class="nav-link active" href="/create-design.html"
-                >Create Design</a
-              >
+              <a class="nav-link" href="/create-design.html">Create Design</a>
             </li>
             <li class="nav-item" id="logout">
               <a class="nav-link" href="" id="signout">Logout</a>
@@ -52,36 +50,49 @@
     </nav>
     <main class="main-content">
       <form class="text-center p-5">
-        <h4 class="h4 mb-4 update-message"></h4>
+        <h4 class="h4 mb-4 regMessage"></h4>
 
         <input
           type="text"
-          id="styleName"
+          id="brandName"
           class="form-control mb-4"
-          placeholder="Style name"
+          placeholder="Brand name"
         />
-        <textarea
-          class="form-control mb-4"
-          id="description"
-          rows="3"
-          placeholder="Description"
-        ></textarea>
         <input
-          type="number"
-          id="price"
+          type="text"
+          id="firstname"
           class="form-control mb-4"
-          placeholder="Price"
+          placeholder="firstname"
+        />
+        <input
+          type="text"
+          id="lastname"
+          class="form-control mb-4"
+          placeholder="lastname"
+        />
+
+        <input
+          type="email"
+          id="email"
+          class="form-control mb-4"
+          placeholder="Email address"
+        />
+        <input
+          type="password"
+          id="password"
+          class="form-control mb-4"
+          placeholder="password"
         />
 
         <input
           type="text"
-          id="image"
+          id="phone"
           class="form-control mb-4"
-          placeholder="Image URL"
+          placeholder="Phone Number"
         />
 
-        <button class="btn btn-info btn-block" id="update" type="submit">
-          Update Design
+        <button class="btn btn-info btn-block" id="signup" type="submit">
+          Sign up
         </button>
       </form>
     </main>
@@ -91,7 +102,7 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/proper.js"></script>
     <script src="./js/bootstrap.js"></script>
-    <script src="./js/updateDesign.js"></script>
+    <script src="./js/signup.js"></script>
     <script src="./js/checkLogin.js"></script>
   </body>
 </html>

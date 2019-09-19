@@ -32,6 +32,13 @@ $(document).ready(function() {
         $(".design-message").html(
           "<p class='text-success'>Design created succesfully</p>"
         );
+        setTimeout(() => {
+          $(".design-message").html("");
+        }, 2000);
+        $("#styleName").val("");
+        $("#description").val("");
+        $("#price").val("");
+        $("#image").val("");
       }
     });
   });
