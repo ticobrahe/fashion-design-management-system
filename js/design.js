@@ -16,7 +16,7 @@ $(document).ready(function() {
       </div>
         `;
       $(".contain").append(designData);
-      if (stylist) {
+      if (stylist === design.stylistEmail) {
         const btn = `
         <a href="/update-design.html?id=${design.id}" class="btn btn-success m-">Modify</a>
         <button class="btn btn-danger m-1" id="del">Delete</button>
