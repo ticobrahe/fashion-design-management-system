@@ -21,33 +21,28 @@
   ],
   "designs": [
     {
-      "styleName": "Men Ankara",
-      "description": "nice Men Ankara ",
-      "price": "20000",
-      "imageUrl": "https://i.pinimg.com/564x/f0/43/11/f043116fd24491eea3e47f130e459c82.jpg",
+      "styleName": "Blue native",
+      "description": "Casual native wear with cotton material",
+      "price": "31292.75",
+      "imageUrl": "https://i.pinimg.com/236x/a7/64/37/a764379b651983a7c30c49ead5975354.jpg",
+      "stylistEmail": "olabiyi.sam@gmail.com",
       "id": 1
+    },
+    {
+      "styleName": "Men Ankara",
+      "description": "Quality ankara outfit design ",
+      "price": "6467.05",
+      "imageUrl": "https://i.pinimg.com/564x/f0/43/11/f043116fd24491eea3e47f130e459c82.jpg",
+      "stylistEmail": "olabiyi.sam@gmail.com",
+      "id": 2
     },
     {
       "styleName": "Kombe",
       "description": "jsjsLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musjsj",
-      "price": "30226",
+      "price": "35000",
       "imageUrl": "https://i.pinimg.com/564x/12/91/8c/12918c788f8a7d53cf987fb0164ea558.jpg",
-      "id": 2
-    },
-    {
-      "styleName": "love",
-      "description": "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,",
-      "price": "50",
-      "imageUrl": "https://i.pinimg.com/564x/61/dd/3f/61dd3f955a4ca64e1862e03991f79dce.jpg",
-      "userEmail": "test@gmail.com",
+      "stylistEmail": "tega@decagon.com",
       "id": 3
-    },
-    {
-      "styleName": "Blue native",
-      "description": "Casual native wear with cotton material",
-      "price": "8492.43",
-      "imageUrl": "https://i.pinimg.com/236x/a7/64/37/a764379b651983a7c30c49ead5975354.jpg",
-      "id": 4
     }
   ]
 }

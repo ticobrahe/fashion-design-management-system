@@ -13,6 +13,7 @@ $(document).ready(function() {
         const description = $("#description").val() || design.description;
         const price = $("#price").val() || design.price;
         const imageUrl = $("#image").val() || design.imageUrl;
+        const stylistEmail = design.stylistEmail;
         $.ajax({
           method: "PUT",
           url: `http://localhost:3000/designs/${id}`,
@@ -20,7 +21,8 @@ $(document).ready(function() {
             styleName,
             description,
             price,
-            imageUrl
+            imageUrl,
+            stylistEmail
           },
           success: function(response) {
             $(".update-message").html(
