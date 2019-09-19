@@ -4,12 +4,18 @@ $(document).ready(function() {
   const stylist = localStorage.getItem("email");
   $.getJSON(`http://localhost:3000/designs?id=${id}`, function(response) {
     $.each(response, function(key, design) {
+      const formatter = new Intl.NumberFormat("en-NG", {
+        style: "currency",
+        currency: "NGN",
+        minimumFractionDigits: 2
+      });
+      const price = formatter.format(design.price);
       const designData = `
         <div class="single-design-pane text-center">
         <img class="design-image" src="${design.imageUrl}" alt="${design.styleName}" />
         <div class="single-design-info">
           <h5 class="h5">${design.styleName}</h5>
-          <h5 class="single-design-price h5">${design.price}</h5>
+          <h5 class="single-design-price h5">${price}</h5>
           <p>${design.description}</p>
             
         </div>

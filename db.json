@@ -32,7 +32,7 @@
     {
       "styleName": "Blue native",
       "description": "Casual native wear with cotton material",
-      "price": "31292.75",
+      "price": "35292.75",
       "imageUrl": "https://i.pinimg.com/236x/a7/64/37/a764379b651983a7c30c49ead5975354.jpg",
       "stylistEmail": "olabiyi.sam@gmail.com",
       "id": 1
@@ -44,6 +44,14 @@
       "imageUrl": "https://i.pinimg.com/564x/12/91/8c/12918c788f8a7d53cf987fb0164ea558.jpg",
       "stylistEmail": "tega@decagon.com",
       "id": 3
+    },
+    {
+      "styleName": "LongSleeve T-shirt",
+      "description": "dddddddd",
+      "price": "6467.05",
+      "imageUrl": "https://i.pinimg.com/564x/c1/1a/9b/c11a9b0a16794e1fe9c2eb1c5907a4a7.jpg",
+      "stylistEmail": "olabiyi.sam@gmail.com",
+      "id": 4
     }
   ]
 }
