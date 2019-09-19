@@ -35,6 +35,9 @@ $(document).ready(function() {
           $(".regMessage").html(
             "<p class='text-danger'>Stylist already exist</p>"
           );
+          setTimeout(() => {
+            $(".regMessage").html("");
+          }, 2000);
         } else {
           $.ajax({
             method: "POST",
@@ -51,6 +54,15 @@ $(document).ready(function() {
               $(".regMessage").html(
                 "<p class='text-success'>Stylist created Succesfully</p>"
               );
+              setTimeout(() => {
+                $(".regMessage").html("");
+              }, 2000);
+              $("#firstname").val("");
+              $("#lastname").val("");
+              $("#password").val("");
+              $("#email").val("");
+              $("#brandName").val("");
+              $("#phone").val("");
             }
           });
         }

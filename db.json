@@ -26,6 +26,24 @@
       "brandName": "Jaga",
       "phoneNumber": "+1 07185538740",
       "id": 3
+    },
+    {
+      "firstname": "Sam",
+      "lastname": "Ojomo",
+      "password": "12345",
+      "email": "sam@gmail.com",
+      "brandName": "Dhopey",
+      "phoneNumber": "0803445555",
+      "id": 4
+    },
+    {
+      "firstname": "fem",
+      "lastname": "Olabiyi",
+      "password": "111",
+      "email": "olabiy.sam@gmail.com",
+      "brandName": "Ticobhe",
+      "phoneNumber": "+2347035455402",
+      "id": 5
     }
   ],
   "designs": [
@@ -44,14 +62,6 @@
       "imageUrl": "https://i.pinimg.com/564x/12/91/8c/12918c788f8a7d53cf987fb0164ea558.jpg",
       "stylistEmail": "tega@decagon.com",
       "id": 3
-    },
-    {
-      "styleName": "LongSleeve T-shirt",
-      "description": "dddddddd",
-      "price": "6467.05",
-      "imageUrl": "https://i.pinimg.com/564x/c1/1a/9b/c11a9b0a16794e1fe9c2eb1c5907a4a7.jpg",
-      "stylistEmail": "olabiyi.sam@gmail.com",
-      "id": 4
     }
   ]
 }
