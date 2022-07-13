@@ -1,0 +1,2 @@
+[all]
+ec2-44-200-17-71.compute-1.amazonaws.com
