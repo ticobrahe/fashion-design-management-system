@@ -20,22 +20,22 @@ jobs:
                 --region us-east-1
 
   configure_infrastructure: 
-  docker:
-    - image: python:3.7-alpine3.11
-  steps:
-    - checkout
-    - add_ssh_keys:
+      docker:
+        - image: python:3.7-alpine3.11
+      steps:
+        - checkout
+        - add_ssh_keys:
             # You can get this ID in the section where you registered the SSH Key
             fingerprints: ["ff:08:23:41:2c:99:22:f9:50:1c:b0:16:53:c6:90:c8"] 
-    - run:
-        name: Install Ansible
-        command: |
-          # Install Ansible
-          apk add --update ansible 
-    - run:
-        name: Run Playbook and Configure server
-        command: |
-          ansible-playbook -i inventory.txt playbook.yml
+      - run:
+          name: Install Ansible
+          command: |
+            # Install Ansible
+            apk add --update ansible 
+      - run:
+          name: Run Playbook and Configure server
+          command: |
+            ansible-playbook -i inventory.txt playbook.yml
   
 # Sequential workflow
 workflows:
